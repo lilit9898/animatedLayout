@@ -1,0 +1,19 @@
+.brandName {
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url('https://i.makeagif.com/media/10-24-2021/IJtwgR.gif');
+  color: transparent;
+  font-size: 250px;
+}
+
+/* "https://static.wixstatic.com/media/5aa973_930549fae5044e20a5d12c031632b851~mv2.gif" */
+
+.brendNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  height: 70vh;
+  text-align: center;
+}

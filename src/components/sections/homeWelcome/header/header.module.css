@@ -1,0 +1,28 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.NavBar {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Raleway', Arial;
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.NavBarItem {
+  height: 28px;
+  border-bottom: 1px solid rgba(255, 238, 238, 0.348);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBarItem :hover {
+  color: rgba(119, 0, 255, 0.757);
+  cursor: pointer;
+}

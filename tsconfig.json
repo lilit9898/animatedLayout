@@ -18,6 +18,12 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/sections/chaosAnimation/ChaosAnimation.jsx",
+    "src/components/sections/videoExamples/VideoContainer.jsx"
+  ],
   "exclude": ["node_modules"]
 }

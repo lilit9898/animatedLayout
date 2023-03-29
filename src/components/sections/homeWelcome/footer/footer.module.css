@@ -1,0 +1,42 @@
+.footerBarContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.NavBar {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Raleway', Arial;
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.NavBarItem {
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkBar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Raleway', Arial;
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+.link {
+  width: fit-content;
+  border-bottom: 1px solid rgba(255, 238, 238, 0.348);
+}
+
+.link :hover {
+  color: rgba(119, 0, 255, 0.757);
+  cursor: pointer;
+}
